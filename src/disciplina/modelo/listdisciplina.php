@@ -3,7 +3,7 @@
 include('../../conexao/conn.php');
  
 
-$sql = "SELECT * FROM disciplina";
+$sql = "SELECT * FROM disciplinas";
  
 
 $resultado = mysqli_query($conecta, $sql);

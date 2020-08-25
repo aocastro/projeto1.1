@@ -15,7 +15,7 @@ $dados = array(
 );
 }else{
 
-$sql = "INSERT INTO disciplina (nome, professor, nota) VALUES ('".$nome."', '".$professor."', '".$nota."')";
+$sql = "INSERT INTO disciplinas (nome, professor, nota) VALUES ('".$nome."', '".$professor."', '".$nota."')";
 
 if(mysqli_query($conecta, $sql)){
 $dados = array(

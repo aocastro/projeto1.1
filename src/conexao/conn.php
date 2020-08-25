@@ -2,8 +2,8 @@
 ini_set('display_errors', true);
 error_reporting(E_ALL);
 
-$hostname = "127.0.0.1";
-$database = "projeto1.1";
+$hostname = "localhost";
+$database = "minhasnotas";
 $username = "root";
 $password = "";
 
